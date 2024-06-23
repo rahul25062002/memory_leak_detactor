@@ -1,4 +1,4 @@
-# Memory Leak Checker
+# Memory Leak Detactor
 
 This C++ program demonstrates a simple memory leak detection mechanism by overriding the `new` and `delete` operators. It tracks memory allocations and reports any leaks upon program exit. The leak detection mechanism can be applied to any external file by including the `MemoryLeakDetector.h` header.
 
@@ -42,4 +42,4 @@ This C++ program demonstrates a simple memory leak detection mechanism by overri
 ### Memory Leak Detected
 When the `delete[] ptr;` line is commented out:
 
-
+![image](https://github.com/rahul25062002/memory_leak_detactor/assets/75932347/cbe02a19-e7ed-4c34-9c3c-7bc638fa77c9)
